@@ -1,0 +1,45 @@
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+}
+  
+.calculator-result {
+    background-color: #232323;
+    width: 100%;
+    height: 70px;
+    border: none;
+    color: #eeeeee;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 3rem;
+    text-align: right;
+    /* background-image: url(https://wallpapercave.com/wp/wp11923908.jpg); */
+}
+  
+button{
+    height: 60px;
+    font-size: 2rem!important;
+}
+    
+.container-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 15px;
+    padding: 20px;
+}
+
+button.btn:hover{
+    background-color: rgba(99, 13, 103, 0.241)!important;
+    color:#f2f2f2!important;
+}
+
+/* body{
+    background-image: url(https://wallpapercave.com/dwp1x/wp11923891.png);
+} */
+
+li{
+    display: inline;
+    list-style-type: none;
+}
