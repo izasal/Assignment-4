@@ -2,7 +2,8 @@
 .calculator {
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 400px;
+    width: 320px!important;
+    
 }
   
 .calculator-result {
@@ -16,6 +17,10 @@
     font-size: 3rem;
     text-align: right;
     /* background-image: url(https://wallpapercave.com/wp/wp11923908.jpg); */
+    /* max-width: 85%;
+    margin-left: 20px; */
+    background-color: rgb(175, 212, 221);
+    background-image: url();
 }
   
 button{
@@ -28,6 +33,7 @@ button{
     grid-template-columns: repeat(4, 2fr);
     grid-gap: 15px;
     padding: 20px;
+    /* max-width: 80%; */
 }
 
 button.btn:hover{
@@ -35,11 +41,11 @@ button.btn:hover{
     color:#f2f2f2!important;
 }
 
-/* body{
-    background-image: url(https://wallpapercave.com/dwp1x/wp11923891.png);
-} */
-
 li{
     display: inline;
     list-style-type: none;
 }
+
+/* body{
+    background-size: cover;
+} */
